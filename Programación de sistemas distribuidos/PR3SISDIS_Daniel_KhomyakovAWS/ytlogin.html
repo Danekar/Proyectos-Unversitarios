@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+
+
+$(document).ready(function(){
+  $("#login").click(function(){
+                var vusername=document.getElementById("username").value;
+                var vpasswd=document.getElementById("passwd").value;
+                
+                var vres="";
+                var asd=$.get(
+		"http://34.202.41.76/login_gateway.php",
+		
+                    {method: "operacion", username : vusername, passwd : vpasswd},
+                    function(data) {
+
+                        function jsonEscape(str)  {
+                                return str.replace(/\n/g, "\\\\n").replace(/\r/g, "\\\\r").replace(/\t/g, "\\\\t").replace(/\\/g,"");
+                        }
+                        
+                       var json=JSON.parse(data);
+                       json=JSON.parse(json);
+                       window.location.replace(json.redirect);
+
+                    }
+                )
+  });
+  
+  $("#registro").click(function(){
+        window.location.href='http://34.202.41.76/ytregister.html';
+  });
+  
+});
+
+</script>
+
+</head>
+<body>
+
+  <label >Nombre de usuario:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label >Contrase&ntildea</label>
+  <input type="text" id="passwd" name="passwd"><br><br>
+
+  <button id="login">Logarse</button>
+  <button id="registro">Registrarse</button>
+
+</body>
+</html>
+

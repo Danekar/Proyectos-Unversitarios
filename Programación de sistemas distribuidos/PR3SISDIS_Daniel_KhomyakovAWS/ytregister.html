@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+
+
+$(document).ready(function(){
+  $("#registrar").click(function(){
+                var vname=document.getElementById("name").value;
+                var vusername=document.getElementById("username").value;
+                var vemail=document.getElementById("email").value;
+                var vpasswd=document.getElementById("passwd").value;
+                
+                var vres="";
+                var asd=$.get(
+		"http://34.202.41.76/register_gateway.php",
+		
+                    {method: "operacion", name : vname, username : vusername, email : vemail, passwd : vpasswd},
+                    function(data) {
+
+                        function jsonEscape(str)  {
+                                return str.replace(/\n/g, "\\\\n").replace(/\r/g, "\\\\r").replace(/\t/g, "\\\\t").replace(/\\/g,"");
+                        }
+                        
+                       var json=JSON.parse(data);
+                       json=JSON.parse(json);
+                       window.location.replace(json.redirect);
+                    }
+                )
+  });
+});
+
+</script>
+
+</head>
+<body>
+  <label >Nombre completo:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label >Nombre de usuario:</label>
+  <input type="text" id="username" name="username"><br><br>
+  <label >Correo electronico:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label >Contrase&ntildea</label>
+  <input type="text" id="passwd" name="passwd"><br><br>
+
+  <button id="registrar">Registrarse</button>
+
+</body>
+</html>
+
