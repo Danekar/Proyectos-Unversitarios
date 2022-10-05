@@ -1,0 +1,5 @@
+/home/raul/practica2_sisdis/Archivos_compilacion/fileManager/CMakeFiles/edit_cache.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/fileManager/CMakeFiles/mainServidor.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/fileManager/CMakeFiles/rebuild_cache.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/fileManager/CMakeFiles/mainCliente.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/fileManager/CMakeFiles/fileManager.dir

@@ -1,0 +1,5 @@
+/home/raul/practica2_sisdis/Archivos_compilacion/multMatrix/CMakeFiles/edit_cache.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/multMatrix/CMakeFiles/rebuild_cache.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/multMatrix/CMakeFiles/mainServidorMultMatrix.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/multMatrix/CMakeFiles/mainClienteMultMatrix.dir
+/home/raul/practica2_sisdis/Archivos_compilacion/multMatrix/CMakeFiles/multMatrix.dir

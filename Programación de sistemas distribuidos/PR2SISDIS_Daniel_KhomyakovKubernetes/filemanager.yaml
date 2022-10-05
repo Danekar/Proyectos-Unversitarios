@@ -1,0 +1,27 @@
+#Daniel Khomyakov y Raul Martinez Llorente
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: filemanager
+ namespace: default
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   app: filemanager
+ template:
+  metadata:
+   labels:
+    app: filemanager
+  spec:
+   containers:
+   - name: filemanager
+     image: raulmllorente/filemanager:1.0
+     volumeMounts:
+     - name: res-filemanager
+       mountPath: /dirprueba
+   volumes:
+   - name: res-filemanager
+     hostPath:
+       path: /home/raul/practica2_sisdis/vol-filemanager

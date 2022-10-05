@@ -1,0 +1,20 @@
+#Daniel Khomyakov y Raul Martinez Llorente
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: multmatrix
+ namespace: default
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   app: multmatrix
+ template:
+  metadata:
+   labels:
+    app: multmatrix
+  spec:
+   containers:
+   - name: multmatrix
+     image: raulmllorente/multmatrix:1.0

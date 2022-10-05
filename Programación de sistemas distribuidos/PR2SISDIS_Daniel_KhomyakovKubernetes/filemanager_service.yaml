@@ -1,0 +1,17 @@
+#Daniel Khomyakov y Raul Martinez Llorente
+
+apiVersion: v1
+kind: Service
+metadata:
+ name: filemanager-service
+ namespace: default
+spec:
+ type: NodePort
+ selector:
+   app: filemanager
+ clusterIP: 10.100.111.116
+ ports:
+ - port: 3302
+   targetPort: 3302
+   nodePort: 31002
+ externalTrafficPolicy: Cluster
