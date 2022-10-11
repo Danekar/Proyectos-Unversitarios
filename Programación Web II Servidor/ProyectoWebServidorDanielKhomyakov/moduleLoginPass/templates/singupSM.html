@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% if form %}
+    {% import "bootstrap/wtf.html" as wtf %}
+{% endif %}
+
+{% block title %} Signup Speed Meetings {% endblock %}
+
+
+{% block content %}
+
+   {% if form %}
+   <form class="form-signin" method="POST" action="{{url_for('moduleLoginPass.signupSM')}}">
+
+        {{ form.hidden_tag() }}
+        {{ wtf.form_field(form.Modalidad_SM) }}
+        {{ wtf.form_field(form.Duracion_Entrevista) }}
+        {{ wtf.form_field(form.Dias_Entrevista) }}
+        {{ wtf.form_field(form.Perfiles_Buscados) }}
+        {{ wtf.form_field(form.Preguntas) }}
+         <button class="btn btn-lg btn-primary btn-block" type="submit"> Confirmar </button>
+     </form>
+    {% endif %}
+
+
+{% endblock %}

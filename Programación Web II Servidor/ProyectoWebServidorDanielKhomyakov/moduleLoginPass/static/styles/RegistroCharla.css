@@ -1,0 +1,811 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.registro-charla-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.registro-charla-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1910px;
+  flex-shrink: 0;
+}
+.registro-charla-group {
+  display: flex;
+  flex-direction: column;
+}
+.registro-charla-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-block12 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.2));
+}
+.registro-charla-block12.layout {
+  position: absolute;
+  top: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.registro-charla-flex {
+  display: flex;
+}
+.registro-charla-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.31%;
+  margin: 21px auto;
+}
+.registro-charla-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 186px;
+}
+.registro-charla-image2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-image2.layout {
+  position: relative;
+  height: 61px;
+  margin: 30px 0px 0px;
+}
+.registro-charla-flex-spacer {
+  flex: 0 1 41px;
+}
+.registro-charla-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 118px;
+}
+.registro-charla-image1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-image1.layout {
+  position: relative;
+  height: 39px;
+  width: 118px;
+  min-width: 118px;
+  margin: 35px 0px 17px;
+}
+.registro-charla-flex-spacer1 {
+  flex: 0 1 708px;
+}
+.registro-charla-highlights5 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights5.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 0px 25px;
+}
+.registro-charla-flex-spacer2 {
+  flex: 0 1 96px;
+}
+.registro-charla-flex-spacer3 {
+  flex: 0 1 81px;
+}
+.registro-charla-highlights5.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 3px 25px 0px;
+}
+.registro-charla-block12.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-flex-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 118px;
+}
+.registro-charla-flex-spacer4 {
+  flex: 0 1 708px;
+}
+.registro-charla-flex-spacer5 {
+  flex: 0 1 96px;
+}
+.registro-charla-flex-spacer6 {
+  flex: 0 1 81px;
+}
+.registro-charla-highlights5.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 3px 25px 0px;
+}
+.registro-charla-flex2 {
+  display: flex;
+}
+.registro-charla-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 74.58%;
+  margin: 85px auto 0px;
+}
+.registro-charla-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 625px;
+}
+.registro-charla-hero-title-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-hero-title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 58px/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-charla-hero-title-span0 {
+  font: 700 1em/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: #14192c;
+  letter-spacing: 0px;
+}
+.registro-charla-hero-title-span1 {
+  font: 700 1em/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: #0065ef;
+  letter-spacing: 0px;
+}
+.registro-charla-flex2-spacer {
+  flex: 0 1 20px;
+}
+.registro-charla-flex2-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-charla-flex3 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-charla-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 14px;
+}
+.registro-charla-highlights2-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-highlights2 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-charla-block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-charla-block2.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19px 0px 0px;
+}
+.registro-charla-highlights3 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+}
+.registro-charla-highlights3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 25px 23px;
+}
+.registro-charla-flex4 {
+  display: flex;
+}
+.registro-charla-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 74.58%;
+  margin: 10px auto 0px;
+}
+.registro-charla-flex4-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 490px;
+}
+.registro-charla-highlights {
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.registro-charla-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 61px 0px 47px;
+}
+.registro-charla-flex4-spacer {
+  flex: 0 1 155px;
+}
+.registro-charla-flex4-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-charla-flex5 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-charla-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-block3 {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-charla-block3.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-highlights31-box {
+  display: flex;
+  align-items: center;
+}
+.registro-charla-highlights31-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.registro-charla-highlights31 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-charla-block3-spacer {
+  flex: 0 1 440px;
+}
+.registro-charla-highlights3.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 29px 23px 0px;
+}
+.registro-charla-block2.layout1 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 0px;
+}
+.registro-charla-flex6 {
+  display: flex;
+}
+.registro-charla-flex6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75%;
+  margin: 24px auto 0px;
+}
+.registro-charla-flex6-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.registro-charla-block8 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 196);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-charla-block8.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 196px 0px 0px;
+}
+.registro-charla-highlights21 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights21.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 20.5px 14px;
+}
+.registro-charla-flex6-spacer {
+  flex: 0 1 152px;
+}
+.registro-charla-block9 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 196);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-charla-block9.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 196px 0px 0px;
+}
+.registro-charla-highlights51 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights51.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-charla-block10 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 101, 239);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-charla-block10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 196px 0px 0px;
+}
+.registro-charla-highlights6 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-charla-flex6-spacer1 {
+  flex: 0 1 183px;
+}
+.registro-charla-flex6-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-charla-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-charla-block4.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 15px;
+}
+.registro-charla-highlights3.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 22px 25px 186px;
+}
+.registro-charla-flex7 {
+  display: flex;
+}
+.registro-charla-flex7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 72.92%;
+  margin: 25px auto 0px;
+}
+.registro-charla-flex7-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 13px;
+}
+.registro-charla-cover-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 1px 0px 13px;
+}
+.registro-charla-icon2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-icon2.layout {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+}
+.registro-charla-flex7-spacer {
+  flex: 0 1 90px;
+}
+.registro-charla-icon2.layout1 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 1px 0px 13px;
+}
+.registro-charla-icon2.layout2 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 1px 0px 13px;
+}
+.registro-charla-icon2.layout3 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 1px 0px 13px;
+}
+.registro-charla-icon2.layout4 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 1px 0px 13px;
+}
+.registro-charla-flex7-spacer1 {
+  flex: 0 1 204px;
+}
+.registro-charla-highlights22-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-charla-block5 {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-charla-block5.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 19px 20.94% 0px 46.3%;
+}
+.registro-charla-highlights32-box {
+  display: flex;
+  align-items: center;
+}
+.registro-charla-highlights32-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.registro-charla-highlights32 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-charla-block5-spacer {
+  flex: 0 1 373px;
+}
+.registro-charla-block5-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 53px;
+}
+.registro-charla-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-icon.layout {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  margin: 25px 29px 25px 0px;
+}
+.registro-charla-block2.layout2 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-charla-highlights22-box.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 7.4%;
+  margin: 40px auto 0px;
+}
+.registro-charla-block2.layout3 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 19px 20.94% 0px 46.3%;
+}
+.registro-charla-block2.layout4 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-charla-block2.layout5 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-charla-block2.layout6 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-charla-block6 {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-charla-block6.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 119px 20.94% 0px 46.3%;
+}
+.registro-charla-block6-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 42px;
+}
+.registro-charla-block7 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-block7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 25px 0px 25px 18px;
+}
+.registro-charla-icon1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-charla-icon1.layout {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 6px;
+}
+.registro-charla-block6-spacer {
+  flex: 0 1 28px;
+}
+.registro-charla-highlights4 {
+  display: flex;
+  align-items: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+}
+.registro-charla-highlights4.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19.5px 397px 22.5px 0px;
+}
+.registro-charla-group.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 30.83%;
+  margin: 73px auto;
+}
+.registro-charla-block1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(31, 31, 31);
+}
+.registro-charla-block1.layout {
+  position: absolute;
+  top: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 15px;
+  left: 493px;
+  right: 5px;
+}
+.registro-charla-highlights1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(30, 30, 30);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto 0px;
+}
+.registro-charla-block11 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 101, 239);
+}
+.registro-charla-block11.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 15px 488px;
+}
+.registro-charla-highlights7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-charla-highlights7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto 0px;
+}

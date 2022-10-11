@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% if form %}
+    {% import "bootstrap/wtf.html" as wtf %}
+{% endif %}
+
+{% block title %} Inicio {% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bienvenido al Company Day!</title>
+        <style>
+          a:link, a:visited {
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+
+          a:hover, a:active {
+            background-color: green;
+            color: white;
+          }
+
+          .contenedorBanner{
+            height: 300px;
+            width: 1520px;
+            text-align: center;
+            border:1px solid black;
+            display: block;
+            line-height: 150%;
+            font-size: 30px;
+          }
+
+          .contenedorCabecera {
+            column-count: 3;
+            margin: 0 auto;
+            height: 110px;
+            text-align: left;
+            border-bottom:1px solid black;
+          }
+
+          .contenedorCabeceraBotones{
+            column-count: 2;
+            margin: 0 auto;
+            text-align: right;
+          }
+
+          .contenedorBotones {
+            column-count: 2;
+            margin: 0 auto;
+            width: 656px;
+            text-align: center;
+          }
+          </style>
+    </head>
+
+    <body>
+      <div class="contenedorCabecera">
+        <div id="logoUtad">
+          <img src="../static/uTadLogo.png" width = "200" height= "50" alt="Logo U-Tad">
+        </div>
+        <div id="logoCompanyDay">
+          <img src="../static/companyDaylogo.png" width = "400" height= "100" alt="Logo Company Day">
+        </div>
+        <div class="contenedorCabeceraBotones">
+        <div id="about">
+          <a href="http://127.0.0.1:5000/about">About</a>
+        </div>
+        <div id="signIn">
+          <a href="http://127.0.0.1:5000/signIn">Sign In</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="contenedorBanner">
+        <label><b>Busca y captura talento</b></label>
+      </div>
+    <div class="contenedorBotones">
+      <div id="signup">
+        <label><b>Nueva empresa</b></label>
+        <br><br>
+        <label>(Deadline October 5th)</label>
+        <br><br>
+        <a href="http://127.0.0.1:5000/signup">Sign Up</a>
+      </div>
+      <div id="consulta">
+        <label><b>STUDENTS AND ALUMNI</b></label>
+        <br><br>
+        <a href="https://u-tad.com/en/company-day/">Consultar</a>
+      </div>
+    </div>
+    </body>
+</html>
+{% endblock %}

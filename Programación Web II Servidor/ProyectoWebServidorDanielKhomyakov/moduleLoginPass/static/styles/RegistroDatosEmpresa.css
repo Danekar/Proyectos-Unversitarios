@@ -1,0 +1,635 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.registro-datos-empresa-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.registro-datos-empresa-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1536px;
+  flex-shrink: 0;
+}
+.registro-datos-empresa-block6 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.2));
+}
+.registro-datos-empresa-block6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-datos-empresa-flex {
+  display: flex;
+}
+.registro-datos-empresa-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.31%;
+  margin: 21px auto;
+}
+.registro-datos-empresa-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 186px;
+}
+.registro-datos-empresa-image2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-datos-empresa-image2.layout {
+  position: relative;
+  height: 61px;
+  margin: 30px 0px 0px;
+}
+.registro-datos-empresa-flex-spacer {
+  flex: 0 1 41px;
+}
+.registro-datos-empresa-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 118px;
+}
+.registro-datos-empresa-image1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-datos-empresa-image1.layout {
+  position: relative;
+  height: 39px;
+  width: 118px;
+  min-width: 118px;
+  margin: 35px 0px 17px;
+}
+.registro-datos-empresa-flex-spacer1 {
+  flex: 0 1 708px;
+}
+.registro-datos-empresa-highlights4 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights4.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 0px 25px;
+}
+.registro-datos-empresa-flex-spacer2 {
+  flex: 0 1 96px;
+}
+.registro-datos-empresa-flex-spacer3 {
+  flex: 0 1 81px;
+}
+.registro-datos-empresa-highlights4.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 3px 25px 0px;
+}
+.registro-datos-empresa-flex1 {
+  display: flex;
+}
+.registro-datos-empresa-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 74.58%;
+  margin: 85px auto 0px;
+}
+.registro-datos-empresa-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 625px;
+}
+.registro-datos-empresa-flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-datos-empresa-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-datos-empresa-hero-title {
+  font: 700 58px/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-hero-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-datos-empresa-highlights-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 78.4%;
+  margin: 57px 21.6% 0px 0%;
+}
+.registro-datos-empresa-highlights {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-datos-empresa-flex1-spacer {
+  flex: 0 1 20px;
+}
+.registro-datos-empresa-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-datos-empresa-flex3 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-datos-empresa-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 16px;
+}
+.registro-datos-empresa-highlights1-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-datos-empresa-highlights1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-datos-empresa-block1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-datos-empresa-block1.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19px 0px 0px;
+}
+.registro-datos-empresa-highlights2 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 22px 25px 25px;
+}
+.registro-datos-empresa-block1.layout1 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 0px;
+}
+.registro-datos-empresa-highlights11 {
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights11.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 40px 0px 0px;
+}
+.registro-datos-empresa-block1.layout2 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 2px 20.94% 0px 46.3%;
+}
+.registro-datos-empresa-block1.layout3 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-datos-empresa-flex4 {
+  display: flex;
+}
+.registro-datos-empresa-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75%;
+  margin: 24px auto 0px;
+}
+.registro-datos-empresa-flex4-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.registro-datos-empresa-block8 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 196);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-datos-empresa-block8.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 37px 0px 0px;
+}
+.registro-datos-empresa-highlights12 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights12.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 20.5px 14px;
+}
+.registro-datos-empresa-flex4-spacer {
+  flex: 0 1 152px;
+}
+.registro-datos-empresa-block9 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 101, 239);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-datos-empresa-block9.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 37px 0px 0px;
+}
+.registro-datos-empresa-highlights6 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-datos-empresa-block10 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 232, 232);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-datos-empresa-block10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 37px 0px 0px;
+}
+.registro-datos-empresa-highlights7 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(145, 145, 145);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-datos-empresa-flex4-spacer1 {
+  flex: 0 1 183px;
+}
+.registro-datos-empresa-flex4-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 304px;
+}
+.registro-datos-empresa-block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-datos-empresa-block5.layout {
+  position: relative;
+  overflow: hidden;
+  height: 74px;
+  margin: 0px 0px 17px;
+}
+.registro-datos-empresa-highlights2.layout1 {
+  position: absolute;
+  top: 22px;
+  height: 27px;
+  left: 25px;
+  width: 93px;
+}
+.registro-datos-empresa-flex4-spacer2 {
+  flex: 0 1 21px;
+}
+.registro-datos-empresa-flex4-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 304px;
+}
+.registro-datos-empresa-highlights2.layout2 {
+  position: absolute;
+  top: 22px;
+  height: 27px;
+  left: 25px;
+  width: 136px;
+}
+.registro-datos-empresa-flex5 {
+  display: flex;
+}
+.registro-datos-empresa-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 72.92%;
+  margin: 7px auto 0px;
+}
+.registro-datos-empresa-flex5-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 13px;
+}
+.registro-datos-empresa-cover-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-datos-empresa-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19px 0px 42px;
+}
+.registro-datos-empresa-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-datos-empresa-icon.layout {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+}
+.registro-datos-empresa-flex5-spacer {
+  flex: 0 1 90px;
+}
+.registro-datos-empresa-icon.layout1 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 19px 0px 42px;
+}
+.registro-datos-empresa-icon.layout2 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 19px 0px 42px;
+}
+.registro-datos-empresa-icon.layout3 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 19px 0px 42px;
+}
+.registro-datos-empresa-icon.layout4 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 19px 0px 42px;
+}
+.registro-datos-empresa-flex5-spacer1 {
+  flex: 0 1 204px;
+}
+.registro-datos-empresa-flex5-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-datos-empresa-block1.layout4 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-datos-empresa-highlights13 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights13.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 11.98%;
+  margin: 40px auto 0px;
+}
+.registro-datos-empresa-block1.layout5 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 18px 20.94% 0px 46.3%;
+}
+.registro-datos-empresa-block2 {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-datos-empresa-block2.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 32.76%;
+  margin: 24px 20.94% 0px 46.3%;
+}
+.registro-datos-empresa-highlights2.layout3 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 86px 0px 85px 25px;
+}
+.registro-datos-empresa-block2-spacer {
+  flex: 0 1 154.5px;
+}
+.registro-datos-empresa-block2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 256.5px;
+}
+.registro-datos-empresa-block3 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-datos-empresa-block3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 35px 113.5px 34px 0px;
+}
+.registro-datos-empresa-block4 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-datos-empresa-block4.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 37.5px 0px 38.5px;
+}
+.registro-datos-empresa-big-title {
+  display: flex;
+  align-items: center;
+  font: 700 32px/1.32 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-big-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 15px 14px 16px 25px;
+}
+.registro-datos-empresa-highlights3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 28px 0px 0px;
+}
+.registro-datos-empresa-block7 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 101, 239);
+}
+.registro-datos-empresa-block7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 5.42%;
+  margin: 85px 34.58% 130px 60%;
+}
+.registro-datos-empresa-highlights5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-datos-empresa-highlights5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 10px 8px 9px;
+}

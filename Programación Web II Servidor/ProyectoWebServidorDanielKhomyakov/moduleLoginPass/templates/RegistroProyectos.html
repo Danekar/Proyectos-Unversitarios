@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/commonRegistroProyectos.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/fontsRegistroProyectos.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/RegistroProyectos.css') }}" />
+
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+  </head>
+
+  <body style="display: flex; flex-direction: column">
+    <div class="registro-proyectos registro-proyectos-block layout">
+      <div style="--src:url(../9a125cf88596a03184f61eb455d5a774.png)" class="registro-proyectos-block7 layout">
+        <div class="registro-proyectos-flex layout">
+          <div class="registro-proyectos-flex-item">
+            <div
+              style="--src:url(../af876bc3fded671e316a0bd731fad459.png)"
+              class="registro-proyectos-image2 layout"
+            ></div>
+          </div>
+          <div class="registro-proyectos-flex-spacer"></div>
+          <div class="registro-proyectos-flex-item1">
+            <div
+              style="--src:url(../e15bd8776328f69120ea4083e03f8a85.png)"
+              class="registro-proyectos-image1 layout"
+            ></div>
+          </div>
+          <div class="registro-proyectos-flex-spacer1"></div>
+          <h4 class="registro-proyectos-highlights4 layout"><a href="{{url_for('moduleIndex.index')}}">Home</a></h4>
+          <div class="registro-proyectos-flex-spacer2"></div>
+          <h4 class="registro-proyectos-highlights4 layout"><a href="{{url_for('moduleLoginPass.login')}}">Log In</a></h4>
+          <div class="registro-proyectos-flex-spacer3"></div>
+          <h4 class="registro-proyectos-highlights4 layout1"><a href="{{url_for('moduleLoginPass.signup')}}">Sign up</a></h4>
+        </div>
+      </div>
+      <div class="registro-proyectos-flex1 layout">
+        <div class="registro-proyectos-flex1-item">
+          <h1 class="registro-proyectos-hero-title-box layout">
+            <pre
+              class="registro-proyectos-hero-title"
+            ><span class="registro-proyectos-hero-title-span0">Datos del evento:
+</span><span class="registro-proyectos-hero-title-span1">Presentación de proyectos</span></pre>
+          </h1>
+        </div>
+        <div class="registro-proyectos-flex1-spacer"></div>
+
+         {% if form %}
+        <form class="form-signin" method="POST" action="{{url_for('moduleLoginPass.signupPDP')}}">
+            {{ form.hidden_tag() }}
+        <div class="registro-proyectos-flex1-item1">
+          <div class="registro-proyectos-flex2 layout">
+            <h4 class="registro-proyectos-highlights2-box layout">
+              <pre class="registro-proyectos-highlights2">
+Modalidad
+</pre
+              >
+            </h4>
+            <article class="registro-proyectos-block2 layout">
+              <h4 class="registro-proyectos-highlights3 layout">{{form.Modalidad_Presentacion}}</h4>
+              <div class="registro-proyectos-block2-spacer"></div>
+              <h4 class="registro-proyectos-highlights3 layout1"></h4>
+            </article>
+          </div>
+        </div>
+      </div>
+      <h4 class="registro-proyectos-highlights21 layout">Carrera</h4>
+      <div class="registro-proyectos-flex3 layout">
+        <div class="registro-proyectos-flex3-item">
+          <h5 class="registro-proyectos-highlights layout">
+            Los datos de la participación pueden editarse mas adelante desde el perfil.
+          </h5>
+        </div>
+        <div class="registro-proyectos-flex3-spacer"></div>
+        <div class="registro-proyectos-flex3-item1">
+          <article class="registro-proyectos-block2 layout1">
+            <h4 class="registro-proyectos-highlights3 layout">{{form.Carrera}}</h4>
+            <div class="registro-proyectos-block2-spacer1"></div>
+            <h4 class="registro-proyectos-highlights3 layout2"></h4>
+          </article>
+        </div>
+      </div>
+      <div class="registro-proyectos-flex4 layout">
+        <div class="registro-proyectos-flex4-item">
+          <div class="registro-proyectos-flex5 layout">
+            <div class="registro-proyectos-block3 layout">
+              <h4 class="registro-proyectos-highlights22 layout">1</h4>
+            </div>
+            <div
+              style="--src:url(../1843c3cefe57b736716512d14315dc8f.png)"
+              class="registro-proyectos-cover-block layout"
+            >
+              <div
+                style="--src:url(../45c340093f6f4159d23f620df554f1ea.png)"
+                class="registro-proyectos-icon layout"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="registro-proyectos-flex4-spacer"></div>
+        <div class="registro-proyectos-flex4-item1">
+          <div
+            style="--src:url(../45c340093f6f4159d23f620df554f1ea.png)"
+            class="registro-proyectos-icon layout1"
+          ></div>
+        </div>
+        <div class="registro-proyectos-flex4-spacer1"></div>
+        <div class="registro-proyectos-flex4-item">
+          <div class="registro-proyectos-flex6 layout">
+            <div class="registro-proyectos-block4 layout">
+              <h4 class="registro-proyectos-highlights41 layout">2</h4>
+            </div>
+            <div
+              style="--src:url(../9c47445285f668b6e0f624316db2e4b1.png)"
+              class="registro-proyectos-icon layout2"
+            ></div>
+          </div>
+        </div>
+        <div class="registro-proyectos-flex4-spacer"></div>
+        <div class="registro-proyectos-flex4-item2">
+          <div
+            style="--src:url(../9d652ba695ff4b391324505119357802.png)"
+            class="registro-proyectos-icon layout3"
+          ></div>
+        </div>
+        <div class="registro-proyectos-flex4-spacer2"></div>
+        <div class="registro-proyectos-flex4-item">
+          <div class="registro-proyectos-flex7 layout">
+            <div class="registro-proyectos-block5 layout"><h4 class="registro-proyectos-highlights5 layout">3</h4></div>
+            <div
+              style="--src:url(../5cce7d811aed08e4284afd9d7cc80cd3.png)"
+              class="registro-proyectos-icon layout4"
+            ></div>
+          </div>
+        </div>
+        <div class="registro-proyectos-flex4-spacer3"></div>
+        <div class="registro-proyectos-flex4-item3">
+          <div class="registro-proyectos-group layout">
+            <div class="registro-proyectos-block6 layout">
+              <h5 class="registro-proyectos-highlights6 layout"><button type="submit"> SIGUIENTE </button></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+    {% endif %}
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,360 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.portal-empresas-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.portal-empresas-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.portal-empresas-flex {
+  display: flex;
+  flex-direction: column;
+}
+.portal-empresas-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 77.29%;
+  margin: 61px auto;
+}
+.portal-empresas-flex1 {
+  display: flex;
+}
+.portal-empresas-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 22px;
+}
+.portal-empresas-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 193px;
+}
+.portal-empresas-image3 {
+  background: var(--src) center center/contain no-repeat;
+}
+.portal-empresas-image3.layout {
+  position: relative;
+  height: 63px;
+}
+.portal-empresas-flex1-spacer {
+  flex: 0 1 38px;
+}
+.portal-empresas-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 146px;
+}
+.portal-empresas-image2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.portal-empresas-image2.layout {
+  position: relative;
+  height: 45px;
+  margin: 9px 0px;
+}
+.portal-empresas-flex1-spacer1 {
+  flex: 0 1 511px;
+}
+.portal-empresas-highlights {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.portal-empresas-highlights.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 16px 0px 20px;
+}
+.portal-empresas-flex1-spacer2 {
+  flex: 0 1 96px;
+}
+.portal-empresas-flex1-spacer3 {
+  flex: 0 1 81px;
+}
+.portal-empresas-block7 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+  border-radius: 10px 10px 10px 10px;
+}
+.portal-empresas-block7.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.2%;
+  margin: 94px auto 0px;
+}
+.portal-empresas-highlights5 {
+  display: flex;
+  align-items: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(157, 163, 167);
+  letter-spacing: 0px;
+}
+.portal-empresas-highlights5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 22px 18px 25px;
+}
+.portal-empresas-flex2 {
+  display: flex;
+}
+.portal-empresas-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.2%;
+  margin: 0px auto;
+}
+.portal-empresas-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 273px;
+}
+.portal-empresas-block1 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.portal-empresas-block1.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-highlights1 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.portal-empresas-highlights1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.portal-empresas-block1-spacer {
+  flex: 0 1 145px;
+}
+.portal-empresas-highlights1.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 21px 23px 0px;
+}
+.portal-empresas-flex2-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 305px;
+}
+.portal-empresas-block2 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.portal-empresas-block2.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-highlights11 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: -0.1px;
+}
+.portal-empresas-highlights11.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.portal-empresas-block2-spacer {
+  flex: 0 1 77px;
+}
+.portal-empresas-highlights1.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 24px 23px 0px;
+}
+.portal-empresas-flex2-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 358px;
+}
+.portal-empresas-block3 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.portal-empresas-block3.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-highlights12-box {
+  display: flex;
+  align-items: center;
+}
+.portal-empresas-highlights12-box.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.portal-empresas-highlights12 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.portal-empresas-block3-spacer {
+  flex: 0 1 21px;
+}
+.portal-empresas-highlights1.layout3 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 75px 23px 0px;
+}
+.portal-empresas-flex2-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 180px;
+}
+.portal-empresas-block4 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.portal-empresas-block4.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-block4-spacer {
+  flex: 0 1 82px;
+}
+.portal-empresas-highlights1.layout4 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 20px 23px 0px;
+}
+.portal-empresas-flex3 {
+  display: flex;
+}
+.portal-empresas-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 70.89%;
+  margin: 25px auto 0px;
+}
+.portal-empresas-highlights1.layout5 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-flex3-spacer {
+  flex: 0 1 97px;
+}
+.portal-empresas-highlights2 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+}
+.portal-empresas-highlights2.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.portal-empresas-img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center top;
+  object-position: center top;
+}
+.portal-empresas-img.layout {
+  position: relative;
+  width: calc(100% - 34px);
+  margin: 5px 12px 0px 22px;
+}
+.portal-empresas-image {
+  background: var(--src) center center/contain no-repeat;
+}
+.portal-empresas-image.layout {
+  position: relative;
+  height: 156px;
+  width: 10.51%;
+  margin: 21px 89.49% 52px 0%;
+}

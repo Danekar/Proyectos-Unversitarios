@@ -1,0 +1,291 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.perfil-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.perfil-block.layout {
+  position: relative;
+  overflow: hidden;
+}
+.perfil-block5 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.2));
+}
+.perfil-block5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.perfil-flex {
+  display: flex;
+}
+.perfil-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.31%;
+  margin: 21px auto;
+}
+.perfil-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 186px;
+}
+.perfil-image2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.perfil-image2.layout {
+  position: relative;
+  height: 61px;
+  margin: 30px 0px 0px;
+}
+.perfil-flex-spacer {
+  flex: 0 1 41px;
+}
+.perfil-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 118px;
+}
+.perfil-image1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.perfil-image1.layout {
+  position: relative;
+  height: 39px;
+  width: 118px;
+  min-width: 118px;
+  margin: 35px 0px 17px;
+}
+.perfil-flex-spacer1 {
+  flex: 0 1 708px;
+}
+.perfil-highlights5 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.perfil-highlights5.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 0px 25px;
+}
+.perfil-flex-spacer2 {
+  flex: 0 1 96px;
+}
+.perfil-flex-spacer3 {
+  flex: 0 1 81px;
+}
+.perfil-highlights5.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 3px 25px 0px;
+}
+.perfil-flex1 {
+  display: flex;
+}
+.perfil-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75%;
+  margin: 106px auto 0px;
+}
+.perfil-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 494px;
+}
+.perfil-img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center top;
+  object-position: center top;
+}
+.perfil-img.layout {
+  position: relative;
+}
+.perfil-flex1-spacer {
+  flex: 0 1 155px;
+}
+.perfil-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.perfil-flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.perfil-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 70px 0px 101px;
+}
+.perfil-big-title1 {
+  display: flex;
+  align-items: center;
+  font: 700 32px/1.32 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(30, 30, 30);
+  letter-spacing: -0.6px;
+}
+.perfil-big-title1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.perfil-block1 {
+  display: flex;
+  flex-direction: column;
+}
+.perfil-block1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 34px 0px 0px;
+}
+.perfil-block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.perfil-block2.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.perfil-highlights {
+  display: flex;
+  align-items: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.perfil-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 22px 18px 25px;
+}
+.perfil-block3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 101, 239);
+  border-radius: 10px 10px 10px 10px;
+}
+.perfil-block3.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 0px;
+}
+.perfil-highlights1 {
+  display: flex;
+  align-items: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  letter-spacing: 0px;
+}
+.perfil-highlights1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 22px 18px 25px;
+}
+.perfil-flex3 {
+  display: flex;
+}
+.perfil-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75%;
+  margin: 142px auto 16px;
+}
+.perfil-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 165px;
+}
+.perfil-block4 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 101, 239);
+}
+.perfil-block4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 212px;
+}
+.perfil-highlights2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.perfil-highlights2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 10px 8px 9px;
+}
+.perfil-flex3-spacer {
+  flex: 0 1 59px;
+}
+.perfil-flex3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 249px;
+}
+.perfil-image3 {
+  background: var(--src) center center/contain no-repeat;
+}
+.perfil-image3.layout {
+  position: relative;
+  height: 249px;
+  margin: 14px 0px 0px;
+}

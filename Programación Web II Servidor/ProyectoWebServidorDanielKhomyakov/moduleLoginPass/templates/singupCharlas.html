@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% if form %}
+    {% import "bootstrap/wtf.html" as wtf %}
+{% endif %}
+
+{% block title %} Sing up {% endblock %}
+
+
+{% block content %}
+
+   {% if form %}
+   <form class="form-signin" method="POST" action="{{url_for('moduleLoginPass.signupCharlas')}}">
+        {{ form.hidden_tag() }}
+        {{ wtf.form_field(form.Tema) }}
+        {{ wtf.form_field(form.Presencialidad) }}
+        {{ wtf.form_field(form.Titulo) }}
+        {{ wtf.form_field(form.Breve_Descripcion) }}
+        {{ wtf.form_field(form.Fecha) }}
+        {{ wtf.form_field(form.Ponente) }}
+        {{ wtf.form_field(form.Num_Personas) }}
+        {{ wtf.form_field(form.Nom_Apell_Asistentes) }}
+        {{ wtf.form_field(form.Cargo_Empresa) }}
+        {{ wtf.form_field(form.Uso_De_Datos) }}
+        {{ wtf.form_field(form.Hora) }}
+
+         <button class="btn btn-lg btn-primary btn-block" type="submit"> Confirmar </button>
+     </form>
+    {% endif %}
+
+
+{% endblock %}

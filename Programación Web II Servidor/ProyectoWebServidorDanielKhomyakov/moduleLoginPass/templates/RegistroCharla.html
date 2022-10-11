@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <!--  This source code is exported from pxCode, you can get more document from https://www.pxcode.io  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/commonRegistroCharla.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/fontsRegistroCharla.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('moduleLoginPass.static',filename='styles/RegistroCharla.css') }}" />
+
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
+  </head>
+
+  <body style="display: flex; flex-direction: column">
+    <div class="registro-charla registro-charla-block layout">
+      <div class="registro-charla-group layout">
+        <div style="--src:url(../386a129abe7ec06463b99e001ea7b4d3.png)" class="registro-charla-block12 layout">
+          <div class="registro-charla-flex layout">
+            <div class="registro-charla-flex-item">
+              <div
+                style="--src:url(../af876bc3fded671e316a0bd731fad459.png)"
+                class="registro-charla-image2 layout"
+              ></div>
+            </div>
+            <div class="registro-charla-flex-spacer"></div>
+            <div class="registro-charla-flex-item1">
+              <div
+                style="--src:url(../e15bd8776328f69120ea4083e03f8a85.png)"
+                class="registro-charla-image1 layout"
+              ></div>
+            </div>
+            <div class="registro-charla-flex-spacer1"></div>
+            <h4 class="registro-charla-highlights5 layout"><a href="{{url_for('moduleIndex.index')}}">Home</a></h4>
+            <div class="registro-charla-flex-spacer2"></div>
+            <h4 class="registro-charla-highlights5 layout"><a href="{{url_for('moduleLoginPass.login')}}">Log In</a></h4>
+            <div class="registro-charla-flex-spacer3"></div>
+            <h4 class="registro-charla-highlights5 layout1"><a href="{{url_for('moduleLoginPass.signup')}}">Sign up</a></h4>
+          </div>
+        </div>
+        <div style="--src:url(../9a125cf88596a03184f61eb455d5a774.png)" class="registro-charla-block12 layout1">
+          <div class="registro-charla-flex layout">
+            <div class="registro-charla-flex-item">
+              <div
+                style="--src:url(../af876bc3fded671e316a0bd731fad459.png)"
+                class="registro-charla-image2 layout"
+              ></div>
+            </div>
+            <div class="registro-charla-flex-spacer"></div>
+            <div class="registro-charla-flex-item2">
+              <div
+                style="--src:url(../e15bd8776328f69120ea4083e03f8a85.png)"
+                class="registro-charla-image1 layout"
+              ></div>
+            </div>
+            <div class="registro-charla-flex-spacer4"></div>
+            <h4 class="registro-charla-highlights5 layout"><a href="{{url_for('moduleIndex.index')}}">Home</a></h4>
+            <div class="registro-charla-flex-spacer5"></div>
+            <h4 class="registro-charla-highlights5 layout"><a href="{{url_for('moduleLoginPass.login')}}">Log In</a></h4>
+            <div class="registro-charla-flex-spacer6"></div>
+            <h4 class="registro-charla-highlights5 layout2"><a href="{{url_for('moduleLoginPass.signup')}}">Sign up</a></h4>
+          </div>
+        </div>
+      </div>
+      <div class="registro-charla-flex2 layout">
+        <div class="registro-charla-flex2-item">
+          <h1 class="registro-charla-hero-title-box layout">
+            <pre class="registro-charla-hero-title"><span class="registro-charla-hero-title-span0">Datos del evento:
+</span><span class="registro-charla-hero-title-span1">Charlas</span></pre>
+          </h1>
+        </div>
+        <div class="registro-charla-flex2-spacer"></div>
+
+        {% if form %}
+        <form class="form-signin" method="POST" action="{{url_for('moduleLoginPass.signupCharlas')}}">
+        {{ form.hidden_tag() }}
+        <div class="registro-charla-flex2-item1">
+          <div class="registro-charla-flex3 layout">
+            <h4 class="registro-charla-highlights2-box layout">
+              <pre class="registro-charla-highlights2">
+Datos de la charla
+</pre
+              >
+
+            </h4>
+            <div class="registro-charla-block2 layout"><h4 class="registro-charla-highlights3 layout">{{form.Tema}} Tema</h4></div>
+          </div>
+        </div>
+      </div>
+      <div class="registro-charla-flex4 layout">
+        <div class="registro-charla-flex4-item">
+          <h5 class="registro-charla-highlights layout">
+            Los datos de la participación pueden editarse mas adelante desde el perfil.
+          </h5>
+        </div>
+        <div class="registro-charla-flex4-spacer"></div>
+        <div class="registro-charla-flex4-item1">
+          <div class="registro-charla-flex5 layout">
+            <article class="registro-charla-block3 layout">
+              <h4 class="registro-charla-highlights31-box layout">
+                <pre class="registro-charla-highlights31">{{form.Presencialidad}}  Modalidad</pre>
+              </h4>
+              <div class="registro-charla-block3-spacer"></div>
+            </article>
+            <div class="registro-charla-block2 layout1">
+              <h4 class="registro-charla-highlights3 layout">{{form.Titulo}} Titulo de la charla</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="registro-charla-flex6 layout">
+        <div class="registro-charla-flex6-item">
+          <div class="registro-charla-block8 layout"><h4 class="registro-charla-highlights21 layout">1</h4></div>
+        </div>
+        <div class="registro-charla-flex6-spacer"></div>
+        <div class="registro-charla-flex6-item">
+          <div class="registro-charla-block9 layout"><h4 class="registro-charla-highlights51 layout">2</h4></div>
+        </div>
+        <div class="registro-charla-flex6-spacer"></div>
+        <div class="registro-charla-flex6-item">
+          <div class="registro-charla-block10 layout"><h4 class="registro-charla-highlights6 layout">3</h4></div>
+        </div>
+        <div class="registro-charla-flex6-spacer1"></div>
+        <div class="registro-charla-flex6-item1">
+          <div class="registro-charla-block4 layout">
+            <h4 class="registro-charla-highlights3 layout2">{{form.Breve_Descripcion}} Breve descrripción</h4>
+          </div>
+        </div>
+      </div>
+      <div class="registro-charla-flex7 layout">
+        <div class="registro-charla-flex7-item">
+          <div
+            style="--src:url(../1843c3cefe57b736716512d14315dc8f.png)"
+            class="registro-charla-cover-block layout"
+          >
+            <div
+              style="--src:url(../45c340093f6f4159d23f620df554f1ea.png)"
+              class="registro-charla-icon2 layout"
+            ></div>
+          </div>
+        </div>
+        <div class="registro-charla-flex7-spacer"></div>
+        <div class="registro-charla-flex7-item">
+          <div
+            style="--src:url(../45c340093f6f4159d23f620df554f1ea.png)"
+            class="registro-charla-icon2 layout1"
+          ></div>
+        </div>
+        <div class="registro-charla-flex7-spacer"></div>
+        <div class="registro-charla-flex7-item">
+          <div
+            style="--src:url(../9c47445285f668b6e0f624316db2e4b1.png)"
+            class="registro-charla-icon2 layout2"
+          ></div>
+        </div>
+        <div class="registro-charla-flex7-spacer"></div>
+        <div class="registro-charla-flex7-item">
+          <div
+            style="--src:url(../9d652ba695ff4b391324505119357802.png)"
+            class="registro-charla-icon2 layout3"
+          ></div>
+        </div>
+        <div class="registro-charla-flex7-spacer"></div>
+        <div class="registro-charla-flex7-item">
+          <div
+            style="--src:url(../5cce7d811aed08e4284afd9d7cc80cd3.png)"
+            class="registro-charla-icon2 layout4"
+          ></div>
+        </div>
+        <div class="registro-charla-flex7-spacer1"></div>
+        <h4 class="registro-charla-highlights22-box layout">
+          <pre class="registro-charla-highlights2">
+Fecha y hora
+</pre
+          >
+        </h4>
+      </div>
+      <div class="registro-charla-block5 layout">
+        <h4 class="registro-charla-highlights32-box layout">
+          <pre class="registro-charla-highlights32">{{form.Fecha}} </pre>
+        </h4>
+        <div class="registro-charla-block5-spacer"></div>
+        <div class="registro-charla-block5-item">
+          <div
+            style="--src:url(../36345cd3535518772c742ce722239da9.png)"
+            class="registro-charla-icon layout"
+          ></div>
+        </div>
+      </div>
+      <div class="registro-charla-block2 layout2"><h4 class="registro-charla-highlights3 layout">{{form.Hora}}</h4></div>
+      <h4 class="registro-charla-highlights22-box layout1">
+        <pre class="registro-charla-highlights2">
+Asistentes
+</pre
+        >
+      </h4>
+      <div class="registro-charla-block2 layout3"><h4 class="registro-charla-highlights3 layout">{{form.Ponente}} Ponente/s</h4></div>
+      <div class="registro-charla-block2 layout4">
+        <h4 class="registro-charla-highlights3 layout">{{form.Num_Personas}} Numero de personas</h4>
+      </div>
+      <div class="registro-charla-block2 layout5">
+        <h4 class="registro-charla-highlights3 layout">{{form.Nom_Apell_Asistentes}} Nombre y apellidos de los asistentes </h4>
+      </div>
+      <div class="registro-charla-block2 layout6">
+        <h4 class="registro-charla-highlights3 layout">{{form.Cargo_Empresa}} Cargo en empresa </h4>
+      </div>
+      <div class="registro-charla-block6 layout">
+        <div class="registro-charla-block6-spacer"></div>
+        <h5 class="registro-charla-highlights4 layout">{{form.Uso_De_Datos}} Uso de datos</h5>
+      </div>
+      <div class="registro-charla-group layout1">
+        <div class="registro-charla-block11 layout">
+            <h5 class="registro-charla-highlights7 layout"><button type="submit"> SIGUIENTE </button></h5>
+        </div>
+      </div>
+    </div>
+    </form>
+        {% endif %}
+    <script type="text/javascript">
+      AOS.init();
+    </script>
+  </body>
+</html>

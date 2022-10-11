@@ -1,0 +1,9 @@
+{
+    "gmail_password": "hgclxwasvwehycha",
+    "gmail_username": "danilaesp001@gmail.com",
+    "base_url": "https://danekar.pythonanywhere.com/",
+    "MYSQL_USERNAME":"Danekar",
+    "MYSQL_PASSWORD":"espera307",
+    "MYSQL_HOSTNAME":"Danekar.mysql.pythonanywhere-services.com",
+    "MYSQL_DATABASENAME":"Danekar$CompanyDay"
+}

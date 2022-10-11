@@ -1,0 +1,579 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.registro-proyectos-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.registro-proyectos-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1080px;
+  flex-shrink: 0;
+}
+.registro-proyectos-block7 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.2));
+}
+.registro-proyectos-block7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-flex {
+  display: flex;
+}
+.registro-proyectos-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75.31%;
+  margin: 21px auto;
+}
+.registro-proyectos-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 186px;
+}
+.registro-proyectos-image2 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-proyectos-image2.layout {
+  position: relative;
+  height: 61px;
+  margin: 30px 0px 0px;
+}
+.registro-proyectos-flex-spacer {
+  flex: 0 1 41px;
+}
+.registro-proyectos-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 118px;
+}
+.registro-proyectos-image1 {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-proyectos-image1.layout {
+  position: relative;
+  height: 39px;
+  width: 118px;
+  min-width: 118px;
+  margin: 35px 0px 17px;
+}
+.registro-proyectos-flex-spacer1 {
+  flex: 0 1 708px;
+}
+.registro-proyectos-highlights4 {
+  display: flex;
+  justify-content: flex-end;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights4.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 0px 25px;
+}
+.registro-proyectos-flex-spacer2 {
+  flex: 0 1 96px;
+}
+.registro-proyectos-flex-spacer3 {
+  flex: 0 1 81px;
+}
+.registro-proyectos-highlights4.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 39px 3px 25px 0px;
+}
+.registro-proyectos-flex1 {
+  display: flex;
+}
+.registro-proyectos-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 74.58%;
+  margin: 85px auto 0px;
+}
+.registro-proyectos-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 625px;
+}
+.registro-proyectos-hero-title-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-hero-title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 58px/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-proyectos-hero-title-span0 {
+  font: 700 1em/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: #14192c;
+  letter-spacing: 0px;
+}
+.registro-proyectos-hero-title-span1 {
+  font: 700 1em/1.27 "Montserrat", Helvetica, Arial, serif;
+  color: #0065ef;
+  letter-spacing: 0px;
+}
+.registro-proyectos-flex1-spacer {
+  flex: 0 1 20px;
+}
+.registro-proyectos-flex1-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-proyectos-flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-proyectos-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 14px;
+}
+.registro-proyectos-highlights2-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-highlights2 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.registro-proyectos-block2 {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px 10px 10px 10px;
+}
+.registro-proyectos-block2.layout {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19px 0px 0px;
+}
+.registro-proyectos-highlights3 {
+  display: flex;
+  align-items: center;
+  font: 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(107, 109, 111);
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights3.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 0px 23px 25px;
+}
+.registro-proyectos-block2-spacer {
+  flex: 0 1 452px;
+}
+.registro-proyectos-highlights3.layout1 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 29px 23px 0px;
+}
+.registro-proyectos-highlights21 {
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights21.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 7.4%;
+  margin: 25px auto 0px;
+}
+.registro-proyectos-flex3 {
+  display: flex;
+}
+.registro-proyectos-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 74.58%;
+  margin: 19px auto 0px;
+}
+.registro-proyectos-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1 1 490px;
+}
+.registro-proyectos-highlights {
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 57px 0px 0px;
+}
+.registro-proyectos-flex3-spacer {
+  flex: 0 1 155px;
+}
+.registro-proyectos-flex3-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 629px;
+}
+.registro-proyectos-block2.layout1 {
+  position: relative;
+  overflow: hidden;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 47px;
+}
+.registro-proyectos-block2-spacer1 {
+  flex: 0 1 485px;
+}
+.registro-proyectos-highlights3.layout2 {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 24px 29px 23px 0px;
+}
+.registro-proyectos-flex4 {
+  display: flex;
+}
+.registro-proyectos-flex4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 75%;
+  margin: 210px auto 228px;
+}
+.registro-proyectos-flex4-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 54px;
+}
+.registro-proyectos-flex5 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-proyectos-flex5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 5px;
+}
+.registro-proyectos-block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 196);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-proyectos-block3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-highlights22 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(20, 25, 44);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights22.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 20.5px 14px;
+}
+.registro-proyectos-cover-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-proyectos-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 26px 21px 0px 20px;
+}
+.registro-proyectos-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+.registro-proyectos-icon.layout {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+}
+.registro-proyectos-flex4-spacer {
+  flex: 0 1 69px;
+}
+.registro-proyectos-flex4-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 13px;
+}
+.registro-proyectos-icon.layout1 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 80px 0px 5px;
+}
+.registro-proyectos-flex4-spacer1 {
+  flex: 0 1 70px;
+}
+.registro-proyectos-flex6 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-proyectos-flex6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 5px;
+}
+.registro-proyectos-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 196);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-proyectos-block4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-highlights41 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights41.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-proyectos-icon.layout2 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 26px 21px 0px 20px;
+}
+.registro-proyectos-flex4-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 13px;
+}
+.registro-proyectos-icon.layout3 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 80px 0px 5px;
+}
+.registro-proyectos-flex4-spacer2 {
+  flex: 0 1 70px;
+}
+.registro-proyectos-flex7 {
+  display: flex;
+  flex-direction: column;
+}
+.registro-proyectos-flex7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 5px;
+}
+.registro-proyectos-block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 101, 239);
+  border-radius: 27px 27px 27px 27px;
+}
+.registro-proyectos-block5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-highlights5 {
+  display: flex;
+  justify-content: center;
+  font: 700 19px/1.39 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 19px 14px;
+}
+.registro-proyectos-icon.layout4 {
+  position: relative;
+  height: 13px;
+  width: 13px;
+  min-width: 13px;
+  margin: 26px 21px 0px 20px;
+}
+.registro-proyectos-flex4-spacer3 {
+  flex: 0 1 446px;
+}
+.registro-proyectos-flex4-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 104px;
+}
+.registro-proyectos-group {
+  display: flex;
+  flex-direction: column;
+}
+.registro-proyectos-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.registro-proyectos-block1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(31, 31, 31);
+}
+.registro-proyectos-block1.layout {
+  position: absolute;
+  top: 47px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+}
+.registro-proyectos-highlights1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(30, 30, 30);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto 0px;
+}
+.registro-proyectos-block6 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 101, 239);
+}
+.registro-proyectos-block6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 47px 0px 0px;
+}
+.registro-proyectos-highlights6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 600 15px/2.13 "Montserrat", Helvetica, Arial, serif;
+  color: rgb(0, 101, 239);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.registro-proyectos-highlights6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto 0px;
+}
